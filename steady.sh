@@ -21,15 +21,14 @@
 # So it can detect any kind of kernel interruption with the procces and reload the bot.
 #
 #--------------------------------------------------
-#--      ____  ____ _____                        --
-#--     |    \|  _ )_   _|___ ____   __  __      --
-#--     | |_  )  _ \ | |/ ·__|  _ \_|  \/  |     --
-#--     |____/|____/ |_|\____/\_____|_/\/\_|     --
+#--                                              --
+#--                 @DiMoN_TM                    --
+#--                                              --
 #--                                              --
 #--------------------------------------------------
 #--                                              --
-#--       Developers: @Josepdal & @MaSkAoS       --
-#--     Support: @Skneos,  @iicc1 & @serx666     --
+#--    @DiMoN_TM @DiMoN_TM @DiMoN_TM @DiMoN_TM   --
+#--    @DiMoN_TM @DiMoN_TM @DiMoN_TM @DiMoN_TM   --
 #--                                              --
 #--------------------------------------------------
 
@@ -42,7 +41,7 @@ NONVOLUNTARYCHECK=0
 VOLUNTARY=1
 VOLUNTARYCHECK=0
 I=1
-BOT=Part_tg  # You can put here other bots. Also you can change it to run more than one bot in the same server.
+BOT=Name Your BoT  # You can put here other bots. Also you can change it to run more than one bot in the same server.
 RELOADTIME=10  # Time between checking cpu calls of the cli process. Set the value high if your bot does not receive lots of messages.
 
 
