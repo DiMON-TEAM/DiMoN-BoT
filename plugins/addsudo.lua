@@ -1,6 +1,3 @@
---by @alireza_PT
---Our channel: @create_antispam_bot
-
 do
 local function callback(extra, success, result)
 vardump(success)
@@ -41,6 +38,4 @@ patterns = {
 run = run
 }
 end
---by @alireza_PT
---Our channel: @create_antispam_bot
 
