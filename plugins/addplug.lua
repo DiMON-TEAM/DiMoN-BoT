@@ -1,24 +1,31 @@
-local function run(msg, matches)
-  if is_sudo(msg) then
-  local text = matches[1]
-  local b = 1
-  while b ~= 0 do
-    text = text:trim()
-    text,b = text:gsub('^!+','')
+local function saveplug(extra, success, result)
+  local msg = extra.msg
+  local name = extra.name
+  local receiver = get_receiver(msg)
+  if success then
+    local file = 'plugins/'..name..'.lua'
+    print('File saving to:', result)
+    os.rename(result, file)
+    print('File moved to:', file)
+  else
+    print('Error downloading: '..msg.id)
+    send_large_msg(receiver, 'Failed, please try again!', ok_cb, false)
   end
-  local name = matches[2]
-  local file = io.open("./plugins/"..name..".lua", "w")
-  file:write(text)
-  file:flush()
-  file:close()
-  return "Done ;-)" 
 end
-end 
+local function run(msg,matches)
+    local receiver = get_receiver(msg)
+    local group = msg.to.id
+    if msg.reply_id then
+   local name = matches[2]
+      if matches[1] == "addplug" and matches[2] and is_sudo(msg) then
+load_document(msg.reply_id, saveplug, {msg=msg,name=name})
+        return 'پلایگن '..name..' ذخیره شد'
+    end
+end
+end
 return {
-  description = "a Usefull plugin for sudo !",  
-  usage = "A plugins to add Another plugins to the server",
   patterns = {
-    "^#addplug +(.+) (.*)$"
+ "^[!/#](addplug) (.*)$",
   },
-  run = run
+  run = run,
 }
