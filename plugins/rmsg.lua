@@ -11,7 +11,7 @@ end
 local function run(msg, matches)
   if matches[1] == 'clean' and is_owner(msg) then
     if msg.to.type == 'channel' then
-      if tonumber(matches[2]) > 1000 or tonumber(matches[2]) < 1 then
+      if tonumber(matches[2]) > 100000 or tonumber(matches[2]) < 1 then
         return "تعداد بیشتر از 1000 مجاز است"
       end
       get_history(msg.to.peer_id, matches[2] + 1 , history , {chatid = msg.to.peer_id, con = matches[2]})
