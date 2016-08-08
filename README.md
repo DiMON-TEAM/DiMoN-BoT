@@ -49,4 +49,6 @@ Create a realm using the `!createrealm` command.
 
 # Our team!
 
-[MasTer-DiMoN](https://github.com/DiMoN-TEAM) ([Telegram](https://telegram.me/DiMoN_Official))
+[GiT-MasTer-DiMoN](https://github.com/DiMoN-TEAM) ([Telegram](https://telegram.me/DiMoN_Official))
+# please share
+`TNX`_SEED_*TEAM*
