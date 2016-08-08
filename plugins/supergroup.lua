@@ -2633,8 +2633,8 @@ local function run(msg, matches)
 			return get_rules(msg, data)
 		end
 
-		if matches[1] == 'ابزار' and not is_owner(msg) then
-			text =  ":/"
+		if matches[1] == 'راهنما' and not is_owner(msg) then
+			text =  "فقط مدیران"
 			reply_msg(msg.id, text, ok_cb, false)
 		elseif matches[1] == '' and is_owner(msg) then
 			local name_log = user_print_name(msg.from)
@@ -2752,7 +2752,7 @@ return {
 	"^(قوانین)$",
 	"^(حساسیت) (%d+)$",
 	"^(پاک) (.*)$",
-	"^(ابزار)$",
+	"^(راهنما)$",
 	"^(لیست خاموش)$",
 	"^(لیست بی صدا)$",
     "[#!/](mp) (.*)",
