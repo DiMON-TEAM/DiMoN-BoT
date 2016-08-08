@@ -1,4 +1,3 @@
---[[@UB_CH | @ValtMan ]]
 do
 local function pre_process(msg)
  local hash = 'muteall:'..msg.to.id
