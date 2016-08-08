@@ -18,17 +18,17 @@ local function check_member_super(cb_extra, success, result)
         set_owner = member_id ,
         settings = {
           set_name = string.gsub(msg.to.title, '_', ' '),
-		  lock_arabic = '🔓',
-		  lock_link = "🔓",
-          flood = '🔒',
-		  lock_spam = '🔒',
-		  lock_sticker = '🔓',
-		  member = '🔓',
-		  public = '🔓',
-		  lock_rtl = '🔓',
-		  lock_tgservice = '🔒',
-		  lock_contacts = '🔓',
-		  strict = '🔓'
+		  lock_arabic = 'no',
+		  lock_link = "no",
+          flood = 'yes',
+		  lock_spam = 'yes',
+		  lock_sticker = 'no',
+		  member = 'no',
+		  public = 'no',
+		  lock_rtl = 'no',
+		  lock_tgservice = 'yes',
+		  lock_contacts = 'no',
+		  strict = 'no'
         }
       }
       save_data(_config.moderation.data, data)
