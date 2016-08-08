@@ -1,4 +1,4 @@
-# [DiMoN-BOT](https://telegram.me/DiMoN_TM)
+[# [DiMoN-BOT](https://telegram.me/DiMoN_TM)
 # Let's install the bot.
 cd $HOME
 git clone https://github.com/DiMoN-TEAM/DiMoN-BoT.git -b supergroups
@@ -51,4 +51,4 @@ Create a realm using the `!createrealm` command.
 
 [GiT-MasTer-DiMoN](https://github.com/DiMoN-TEAM) ([Telegram](https://telegram.me/DiMoN_Official))
 # please share
-`TNX`_SEED_ *TEAM*
+`TNX`_SEED_ *TEAM*](https://telegram.me/DiMoN_TM)
