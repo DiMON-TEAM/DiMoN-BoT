@@ -4,16 +4,16 @@
 #            Weather           #
 #                              #
 #                              #
-#       by @CRUEL "M.KH"       #
+#       by @DiMoN_TM "DiMoN"   #
 #                              #
 #                              #
 #    Modified by GPMod Team    #
-#	                       #
+#	                              #
 #                              #
 #     Update: 7 June 2016      #
 #                              #
 #                              #
-#           @GPMod             #
+#           @DiMoN_TM          #
 #                              #
 ################################
 ]]
@@ -125,7 +125,7 @@ local function run(msg, matches)
 			after = after.."- "..day..status.." مي باشد. "..icon.."\n🔺"..C2.." C°\n🔻"..C1.." C°\n\n"
 		end
 		
-		return today.."وضعيت آب و هوا در سه روز آينده:\n"..after.."\n@GPMod Team"
+		return today.."وضعيت آب و هوا در سه روز آينده:\n"..after.."\n@DiMoN_TM"
 	else
 		return "مکان وارد شده صحيح نيست"
 	end
