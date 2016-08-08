@@ -4,16 +4,16 @@
 #              Me              #
 #                              #
 #                              #
-#    by @Dragon_Born "Arian"   #
+#    by  DiMoN                 #
 #                              #
 #                              #
 #    Modified by GPMod Team    #
-#	                       #
+#	                              #
 #                              #
 #     Update: 7 June 2016      #
 #                              #
 #                              #
-#           @GPMod             #
+#           @DiMoN_TM          #
 #                              #
 ################################
 ]]
