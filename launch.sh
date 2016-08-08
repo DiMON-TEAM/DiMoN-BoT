@@ -123,7 +123,7 @@ else
   if [ ! -f ./tg/bin/telegram-cli ]; then
     echo "tg binary not found"
     echo "Run $0 install"
-    exit 1
+    exit 1 bn
   fi
 
   ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/seedbot.lua -l 1 -E $@
