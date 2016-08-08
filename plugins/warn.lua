@@ -1,11 +1,3 @@
---#############################
---#                  Warn Plugin                            #
---#                                                                   #
---#                  @Empix                                 #
---#                  @EdBaRoO                          #
---#                                                                #
---#                @shieldTM                           #
---###########################
 local data = load_data(_config.moderation.data)
 --------------------------------------------------
 local function set_warn(msg, value)
@@ -261,11 +253,3 @@ return {
     },
     run = run,
 }
---#############################
---#                  Warn Plugin                            #
---#                                                                   #
---#                  @Empix                                 #
---#                  @EdBaRoO                          #
---#                                                                #
---#                @shieldTM                           #
---###########################
