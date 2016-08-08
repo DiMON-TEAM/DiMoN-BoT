@@ -261,7 +261,7 @@ end
 	if matches[1] == 'reload' then
 		receiver = get_receiver(msg)
 		reload_plugins(true)
-		post_msg(receiver, "♻️Bot Reloadd!\n✅All plugin and Bot\n______________________________\nChannel for team and bot\n@HEROBoT_TEAM", ok_cb, false)
+		post_msg(receiver, "♻️Bot Reloadd!\n✅All plugin and Bot\n______________________________\nChannel for team and bot\n@DiMoN_TM", ok_cb, false)
 		return ""
 	end
 	--[[*For Debug*
