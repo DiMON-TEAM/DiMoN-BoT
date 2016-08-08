@@ -1,6 +1,3 @@
---by @alireza_PT
---Our channel: @create_antispam_bot
-
 do
 
 local function set_pass(msg, pass, id)
@@ -76,5 +73,3 @@ return {
 }
 
 end
---by @alireza_PT
---Our channel: @create_antispam_bot
