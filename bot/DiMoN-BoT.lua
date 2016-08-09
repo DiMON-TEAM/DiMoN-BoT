@@ -210,6 +210,7 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
+   
    "admin",
    "auto_leave"
    "inpm",
@@ -219,9 +220,8 @@ function create_config( )
    "msg_checks",
    "onservice",
    "owners",
-   "plug",
+   "plugins",
    "supergroup",
-   "super"
 
     },
     sudo_users = {your id},--Sudo users
