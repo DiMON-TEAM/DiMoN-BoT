@@ -220,44 +220,20 @@ function create_config( )
     "anti_spam",
     "owners",
     "arabic_lock",
-    "set",
-    "get",
     "broadcast",
     "invite",
     "all",
     "leave_ban",
     "supergroup",
-    "whitelist",
-    "msg_checks",
-    "plugins",
-    "addplugin",
-    "filter",
-    "linkpv",
-    "lock_emoji",
-    "lock_english",
-    "lock_fosh",
-    "lock_fwd",
-    "lock_join",
-    "lock_media",
-    "lock_operator",
-    "lock_username",
-    "lock_tag",
-    "lock_reply",
-    "rmsg",
-    "send",
-    "set_type",
-    "welcome",
-    "sh",
-    "serverinfo"
     },
-    sudo_users = {245537958,261026070,268968457},--Sudo users
+    sudo_users = {id},--Sudo users
     DiMoN = {268968457},
     moderation = {data = 'data/moderation.json'},
     about_text = [[ ]],
     help_text_realm = [[ ]],
     help_text = [[ ]],
 	help_text_super =[[
-🔥FARZAN🔥 SuperGroup Commands:
+SuperGroup Commands:
 
 🔷!owner
 دریافت آیدی مدیر اصلی گروه
@@ -363,55 +339,8 @@ function create_config( )
 🔷!badwords
 دریافت لیست فیلترینگ 
 
-🔷!msgrem (عددی زیر 100)
-حذف پیام های سوپرگروه به صورت عددی
-
-🔷!msguser 
-دریافت لیست پیام های افراد
-
-🔷!bot off
-خاموش کردن ربات در گروه
-
-🔷!bot on
-روشن کردن ربات در گروه
-
-🔷!join support
-عضو شدن در گروه پشتیبانی ربات
-
-🔷!social
-دریافت راهنمای تفریحی
-🔷!t2s (text) (color) (font)
-ساخت استیکر رنگی 
-
-🔷!sticker
-تبدیل به استیکر 
-
-🔷!image
-تبدیل به عکس
-
-🔷!file 
-تبدیل به فایل 
-
-🔷!banner
-ساخت بنر
-
-🔷Azan
-اوقات شرعی
-
-🔷Abjad
-ابجد
-
-🔷Email adress
-اطلاعات ایمیل
-
-🔷Write (name)
-نوشتن نام با فونت مختلف
-
-به با علامت یا بی علامت بودن توجه کنید
-
-با دستور help> راهنمای html را بگیرید
-
-🔥FARZAN🔥
+🔷!delpm (عددی زیر 100)
+حذف پیام های سوپرگروه 
 ]],
   }
   serialize_to_file(config, './data/config.lua')
